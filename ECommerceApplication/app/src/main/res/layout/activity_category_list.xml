@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:spanCount="2"
+            android:id="@+id/recycler_view"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            />
+
+    </LinearLayout>
+
+    <data>
+
+        <variable
+            name="categoryListViewModel"
+            type="com.wc.heady.ui.categorylist.CategoryListViewModel" />
+    </data>
+</layout>

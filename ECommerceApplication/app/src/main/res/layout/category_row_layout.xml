@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="4dp"
+    card_view:cardMaxElevation="6dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/cat_layout"
+        android:background="@android:color/holo_green_light"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/tv_cat_icon"
+        android:layout_width="100dp"
+        android:src="@drawable/electronic"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Mens Wear"
+        android:textStyle="bold"
+        android:id="@+id/tv_cat_name"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

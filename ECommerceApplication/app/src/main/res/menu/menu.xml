@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/next"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="always"
+        android:title="@string/sort" >
+        <menu>
+            <item
+                android:id="@+id/action_dropdown1"
+                android:title="@string/sort_by_most_ordered" />
+            <item
+                android:id="@+id/action_dropdown2"
+                android:title="@string/sort_by_most_viewed" />
+            <item
+                android:id="@+id/action_dropdown3"
+                android:title="@string/sort_by_most_shared" />
+        </menu>
+    </item>
+</menu>

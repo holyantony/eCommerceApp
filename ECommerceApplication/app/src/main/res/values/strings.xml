@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">solution</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_most_ordered">Sort By Most Ordered</string>
+    <string name="sort_by_most_viewed">Sort By Most Viewed</string>
+    <string name="sort_by_most_shared">Sort By Most Shared</string>
+    <string name="categories"><u>Categories</u></string>
+    <string name="internet_check_msg">Please check your Internet Connection</string>
+</resources>
